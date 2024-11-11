@@ -4,7 +4,7 @@
 
   {% include head.html %}
 
-  <link rel="stylesheet" href="{{ 'assets/css/page.css' | relative_url }}" media="all">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/page.css'" media="all">
 
 </head>
 <body>
@@ -12,7 +12,7 @@
   <!-- 在 `<body>` 部分引入 Swiper 的 JS -->
   <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
   <!-- 引用本地的 swiper-bundle.min.js -->
-  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/swiper-bundle.min.js"></script>
   <script>
     // 检测是否为手机设备
     function isMobile() {

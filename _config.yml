@@ -1,6 +1,6 @@
 # basic
 # ============================================================================
-# url: "https://otfo.cc"
+url: "https://otfo.cc"
 # if your site is serving on https://xxx.github.io, set `baseurl: /`
 # if your site is serving on https://xxx.github.io/path, set `baseurl: /path`
 baseurl: /bny

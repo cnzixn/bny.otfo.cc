@@ -1,0 +1,108 @@
+/* dependency: variables, mixins */
+
+.header {
+  z-index: $zindex-low;
+  position: absolute;
+  top: 0;
+  background-color: $base-background-color;
+  height: $header-mobile-height / 4;
+  width: 100%;
+
+  a:hover {
+    box-shadow: 4px 4px 10px 0 rgba(0,0,0,0.2);
+  }
+
+  @include breakpoint(medium) {
+    position: fixed;
+    width: $header-desktop-width;
+    height: 100%;
+    min-height: 100%;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+
+    @include breakpoint(medium) {
+      right: 0;
+      height: 100%;
+      width: $header-avatar-height / 2;
+    }
+  }
+}
+
+.header__avatar {
+  position: absolute;
+  right: 0;
+
+  @include mobile-only {
+    z-index: $zindex-medium;
+    position: absolute;
+    top: 1rem;
+    left: 5px;
+    bottom: 0;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+  }
+
+  @include breakpoint(medium) {
+    top: $header-avatar-desktop-top;
+  }
+}
+
+.header__avatar--circle {
+  display: block;
+  box-sizing: border-box;
+  height: $header-avatar-height /2 ;
+  width: $header-avatar-height /2 ;
+  border-radius: 10%;
+
+  img {
+    @extend .header__avatar--circle;
+    border: 5px solid #ffffff;
+  }
+}
+
+.clear-header--top {
+  @include mobile-only {
+    padding-top: $header-mobile-height / 4;
+  }
+}
+
+.clear-header--left {
+  @include breakpoint(medium) {
+    margin-left: $header-desktop-width;
+  }
+}
+
+
+
+
+
+/* swiper-container 样式 */
+.swiper-container {
+  width: 100%;  /* 确保容器占据全宽 */
+  height: 100%;  /* 确保容器占据全高 */
+  position: relative;
+  overflow: hidden;
+}
+
+/* swiper-slide 样式 */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 100%;  /* 每个滑动项占据 100% 的宽度 */
+  height: 100%;
+}
+
+/* 图片样式 */
+.swiper-slide img {
+  max-width: 100%;  /* 保证图片的最大宽度为 100% */
+  height: 100%;  /* 保持图片的比例 */
+  object-fit: cover;  /* 保证图片覆盖整个容器 */
+}

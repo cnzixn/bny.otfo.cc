@@ -1,0 +1,66 @@
+/* dependency: variables, mixins */
+
+html,
+body {
+  height: 100%;
+  font-family: $base-font-family;
+}
+
+html {
+  @include breakpoint(medium) {
+    overflow: hidden;
+  }
+}
+
+body {
+  @include breakpoint(medium) {
+    overflow: scroll;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $link-text-color;
+}
+
+.page-content {
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100%;
+
+  @include breakpoint(medium) {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: $breakpoint-large;
+    border-right: 5px solid $base-background-color;
+  }
+}
+
+.main {
+  padding: 10px;
+}
+
+
+
+
+
+/* 基本图片样式 */
+img {
+  max-width: 100%; /* 限制图片最大宽度为容器宽度 */
+  height: auto; /* 保持比例 */
+  display: block; /* 使图片成为块级元素，去除默认的下边距 */
+  margin-bottom: 0; /* 移除图片下方的外边距 */
+  padding-bottom: 0; /* 移除图片下方的内边距 */
+}
+
+/* 只对卡片和文章中的图片应用圆角 */
+.card, .card img, .post img {
+  border-radius: 8px; /* 给卡片和文章中的图片应用圆角 */
+}
+
+/* 主页的背景图不应用圆角 */
+.header__image img {
+  border-radius: 0; /* 确保背景图没有圆角 */
+}
+
+

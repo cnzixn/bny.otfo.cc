@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  {% include head.html %}
+
+  <link rel="stylesheet" href="{{ 'assets/css/page.css' | relative_url }}" media="all">
+
+</head>
+<body>
+
+  <!-- 在 `<body>` 部分引入 Swiper 的 JS -->
+  <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+  <!-- 引用本地的 swiper-bundle.min.js -->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script>
+    // 检测是否为手机设备
+    function isMobile() {
+      return /Mobi|Android|iPhone|iPad|iPod|webOS|BlackBerry|IEMobile|Opera Mini/i.test(window.navigator.userAgent);
+    }
+
+    // 如果不是手机设备，跳转到 404 页面
+    if (!isMobile()) {
+      window.location.href = "/404";  // 跳转到网站的 404 页面
+    }
+  </script>
+
+  <div class="page-content clear-header--top clear-navbar--top clear-footer--bottom">
+
+    {% include header.html %}
+
+    {% include navigation.html %}
+
+    <main class="main clear-header--left">
+
+    {{ content }}
+
+    </main>
+
+    {% include footer.html %}
+
+  </div>
+
+</body>
+</html>
+
+

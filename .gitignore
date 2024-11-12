@@ -1,0 +1,8 @@
+_site/
+*.css.map
+.sass-cache/
+node_modules/
+package-lock.json
+dist/
+README.md
+LICENSE

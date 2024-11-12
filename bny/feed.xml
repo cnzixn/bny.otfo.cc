@@ -3,10 +3,10 @@
   <channel>
     <title>Bny</title>
     <description></description>
-    <link>https://bny.otfo.cc/bny/</link>
-    <atom:link href="https://bny.otfo.cc/bny/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Nov 2024 05:32:49 +0800</pubDate>
-    <lastBuildDate>Wed, 13 Nov 2024 05:32:49 +0800</lastBuildDate>
+    <link>https://otfo.cc/bny/</link>
+    <atom:link href="https://otfo.cc/bny/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 13 Nov 2024 05:51:28 +0800</pubDate>
+    <lastBuildDate>Wed, 13 Nov 2024 05:51:28 +0800</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
       <item>
@@ -27,8 +27,8 @@
 &lt;h2 id=&quot;完了&quot;&gt;完了…&lt;/h2&gt;
 </description>
         <pubDate>Wed, 13 Nov 2024 00:00:00 +0800</pubDate>
-        <link>https://bny.otfo.cc/bny/2024/11/13/web-new-post.html</link>
-        <guid isPermaLink="true">https://bny.otfo.cc/bny/2024/11/13/web-new-post.html</guid>
+        <link>https://otfo.cc/bny/2024/11/13/web-new-post.html</link>
+        <guid isPermaLink="true">https://otfo.cc/bny/2024/11/13/web-new-post.html</guid>
         
         
       </item>
@@ -75,8 +75,8 @@
 
 </description>
         <pubDate>Tue, 12 Nov 2024 00:00:00 +0800</pubDate>
-        <link>https://bny.otfo.cc/bny/file/2024/11/12/all-file.html</link>
-        <guid isPermaLink="true">https://bny.otfo.cc/bny/file/2024/11/12/all-file.html</guid>
+        <link>https://otfo.cc/bny/file/2024/11/12/all-file.html</link>
+        <guid isPermaLink="true">https://otfo.cc/bny/file/2024/11/12/all-file.html</guid>
         
         
         <category>file</category>
@@ -222,8 +222,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 11 Nov 2024 00:00:00 +0800</pubDate>
-        <link>https://bny.otfo.cc/bny/other/2024/11/11/readme.html</link>
-        <guid isPermaLink="true">https://bny.otfo.cc/bny/other/2024/11/11/readme.html</guid>
+        <link>https://otfo.cc/bny/other/2024/11/11/readme.html</link>
+        <guid isPermaLink="true">https://otfo.cc/bny/other/2024/11/11/readme.html</guid>
         
         
         <category>other</category>
@@ -262,8 +262,8 @@
 
 </description>
         <pubDate>Mon, 11 Nov 2024 00:00:00 +0800</pubDate>
-        <link>https://bny.otfo.cc/bny/log/2024/11/11/update-log.html</link>
-        <guid isPermaLink="true">https://bny.otfo.cc/bny/log/2024/11/11/update-log.html</guid>
+        <link>https://otfo.cc/bny/log/2024/11/11/update-log.html</link>
+        <guid isPermaLink="true">https://otfo.cc/bny/log/2024/11/11/update-log.html</guid>
         
         
         <category>log</category>
@@ -289,8 +289,8 @@
 &lt;hr /&gt;
 </description>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0800</pubDate>
-        <link>https://bny.otfo.cc/bny/log/2024/10/02/update-log.html</link>
-        <guid isPermaLink="true">https://bny.otfo.cc/bny/log/2024/10/02/update-log.html</guid>
+        <link>https://otfo.cc/bny/log/2024/10/02/update-log.html</link>
+        <guid isPermaLink="true">https://otfo.cc/bny/log/2024/10/02/update-log.html</guid>
         
         
         <category>log</category>

@@ -1,0 +1,29 @@
+
+jekyll build
+
+jekyll serve
+
+cd /sdcard/acode/bny.otfo.cc/
+
+git remote add origin https://github.com/cnzixn/bny.otfo.cc.git
+
+
+  git checkout main
+  jekyll build
+  git add .
+  git commit -m "Update"
+  git push origin main --force
+  
+  git checkout gh-pages
+  git rm -rf .
+  
+  git checkout main -- _site
+  git checkout main -- .gitignore
+  cp -r ./_site/* .
+  
+  git add .
+  git commit -m "Deploy"
+  git push origin gh-pages --force
+  
+  git checkout main
+  

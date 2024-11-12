@@ -19,9 +19,8 @@ git checkout main -- CNAME
 git checkout main -- .gitignore
 git checkout main -- _site
 git checkout main -- search.json
-cp -r ./_site/bny .
-cp -r ./bny/s .
-cp -r ./_site/* ./buy
+cp -r ./_site ./bny
+cp -r ./bny/bny/s .
 mv ./bny/index.html .
 mv ./bny/404.html .
 rm -rf ./bny/bny

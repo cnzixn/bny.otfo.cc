@@ -5,15 +5,39 @@
     <description></description>
     <link>https://bny.otfo.cc/</link>
     <atom:link href="https://bny.otfo.cc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Nov 2024 20:00:55 +0800</pubDate>
-    <lastBuildDate>Tue, 12 Nov 2024 20:00:55 +0800</lastBuildDate>
+    <pubDate>Wed, 13 Nov 2024 04:34:59 +0800</pubDate>
+    <lastBuildDate>Wed, 13 Nov 2024 04:34:59 +0800</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
       <item>
-        <title>文件</title>
-        <description>&lt;p&gt;欢迎来到文件下载页面！以下是游戏模组相关文件的分类和下载说明。&lt;/p&gt;
+        <title>网页编辑文章</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;独坐孤亭对月明，夜深人静听风声。&lt;br /&gt;
+思绪万千难入眠，遥想往事心难平。&lt;br /&gt;
+岁月匆匆如流水，人生如梦似浮萍。&lt;br /&gt;
+愿得长风破浪去，直挂云帆渡沧海。&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/header_image_3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ping bny.otfo.cc
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;完了&quot;&gt;完了…&lt;/h2&gt;
+</description>
+        <pubDate>Wed, 13 Nov 2024 00:00:00 +0800</pubDate>
+        <link>https://bny.otfo.cc/2024/11/13/web-new-post.html</link>
+        <guid isPermaLink="true">https://bny.otfo.cc/2024/11/13/web-new-post.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>全部文件</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;欢迎来到文件下载页面……&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h3 id=&quot;工具&quot;&gt;工具&lt;/h3&gt;
 
@@ -22,8 +46,6 @@
 文件管理与APK编辑工具，适用于Android系统的文件管理、程序编辑、汉化和优化。&lt;br /&gt;
 &lt;a href=&quot;http://d.mt2.cn/&quot;&gt;点击这里下载 MT管理器&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;hr /&gt;
 
 &lt;h3 id=&quot;游戏&quot;&gt;游戏&lt;/h3&gt;
 
@@ -34,8 +56,6 @@
 &lt;a href=&quot;https://www.123pan.com/s/IC8lVv-XXNAv&quot;&gt;点击这里下载游戏资源&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
-
 &lt;h3 id=&quot;框架&quot;&gt;框架&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -45,8 +65,6 @@
 &lt;a href=&quot;https://www.123pan.com/s/IC8lVv-nXNAv&quot;&gt;点击这里下载框架&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
-
 &lt;h3 id=&quot;补丁和模组&quot;&gt;补丁和模组&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -55,11 +73,10 @@
 &lt;a href=&quot;https://www.123pan.com/s/IC8lVv-MlNAv&quot;&gt;点击这里下载模组资源&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
 </description>
-        <pubDate>Mon, 11 Nov 2024 00:00:00 +0800</pubDate>
-        <link>https://bny.otfo.cc/file/2024/11/11/all-file.html</link>
-        <guid isPermaLink="true">https://bny.otfo.cc/file/2024/11/11/all-file.html</guid>
+        <pubDate>Tue, 12 Nov 2024 00:00:00 +0800</pubDate>
+        <link>https://bny.otfo.cc/file/2024/11/12/all-file.html</link>
+        <guid isPermaLink="true">https://bny.otfo.cc/file/2024/11/12/all-file.html</guid>
         
         
         <category>file</category>
@@ -68,11 +85,11 @@
     
       <item>
         <title>框架功能</title>
-        <description>&lt;p&gt;了解“框架”功能，有助于你更好地游戏…&lt;/p&gt;
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;了解“框架”功能，有助于你更好地游戏…&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;hr /&gt;
-
-&lt;p&gt;【基础优化】&lt;/p&gt;
+&lt;h3 id=&quot;基础优化&quot;&gt;【基础优化】&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;基础优化：无使用限制，开启后生效。&lt;/li&gt;
@@ -132,7 +149,7 @@
   &lt;li&gt;燃烧机制: (优化后)可燃物过热先“冒烟”后“着火”。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;【专属优化】&lt;/p&gt;
+&lt;h3 id=&quot;专属优化&quot;&gt;【专属优化】&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;专属优化：限定兔人协会内部成员使用。&lt;/li&gt;
@@ -164,7 +181,7 @@
   &lt;li&gt;制作栏2：(布局优化)添加联机版风格的制作栏；隐藏旧版制作栏。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;【物品优化】&lt;/p&gt;
+&lt;h3 id=&quot;物品优化&quot;&gt;【物品优化】&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;提灯：开灯时不可拾取，关灯后才可拾取。&lt;/li&gt;
@@ -188,7 +205,7 @@
   &lt;li&gt;瞬移法杖：(布局优化启用时)点击“使用”按钮向“光标”瞬移。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;【其他优化】&lt;/p&gt;
+&lt;h3 id=&quot;其他优化&quot;&gt;【其他优化】&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;优化容器内数字大小。&lt;/li&gt;
@@ -203,9 +220,6 @@
 　默认：保存在”/data/data/…”&lt;br /&gt;
 　外部：保存在”/sdcard/Android/data/…”&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;hr /&gt;
-
 </description>
         <pubDate>Mon, 11 Nov 2024 00:00:00 +0800</pubDate>
         <link>https://bny.otfo.cc/other/2024/11/11/readme.html</link>
@@ -217,10 +231,10 @@
       </item>
     
       <item>
-        <title>更新日志 2024-11-01</title>
-        <description>&lt;p&gt;…&lt;/p&gt;
-
-&lt;hr /&gt;
+        <title>更新日志</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;241101 框架更新日志…&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;0、设置界面：新增 -&amp;gt; 存档目录，修改存档的保存位置。&lt;/p&gt;
 
@@ -246,7 +260,6 @@
 
 &lt;p&gt;11、传送平台：(集齐零件)激活时清除“地图迷雾”(地图全开)。&lt;/p&gt;
 
-&lt;hr /&gt;
 </description>
         <pubDate>Mon, 11 Nov 2024 00:00:00 +0800</pubDate>
         <link>https://bny.otfo.cc/log/2024/11/11/update-log.html</link>
@@ -258,10 +271,10 @@
       </item>
     
       <item>
-        <title>更新日志 2024-10-01</title>
-        <description>&lt;p&gt;…&lt;/p&gt;
-
-&lt;hr /&gt;
+        <title>更新日志</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;241001 框架更新日志…&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;1、物品栏：修复 -&amp;gt; 无法使用“动作弹窗”。&lt;/p&gt;
 

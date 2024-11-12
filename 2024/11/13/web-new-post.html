@@ -8,7 +8,7 @@
 />
 
 
-<title>其他</title>
+<title>网页编辑文章</title>
 
 <!-- favicon -->
 <link
@@ -139,35 +139,81 @@
 </nav>
 
 
-      <main class="main clear-header--left"><div class="posts">
-  <!-- 搜索框 -->
-  <div class="search-container">
-      <input type="text" id="search-bar" placeholder="搜索文章..." />
+      <main class="main clear-header--left"><div class="post">
+  <!-- 页面标题 -->
+  
+  <h1 class="card__title article_title">
+    网页编辑文章
+  </h1>
+  
+
+  <!-- 页面日期 -->
+  <script src="/assets/js/copy_short_link.js"></script>
+  
+  <div class="card__date">更新于：2024/11/13</div>
+  
+
+  <!-- 分享按钮 -->
+  <div class="card__date">
+    短链接：<input
+      type="text"
+      id="shortLink"
+      value="https://bny.otfo.cc/s/ad2f4a"
+      readonly
+      style="opacity: 1; position: relative"
+    />
+    <button class="share-button" onclick="copyShortLink()">复制</button>
   </div>
-  <!-- 文章列表 -->
-  <ul id="post-list">
+
+  <!-- 页面内容 -->
+  <div class="article__content"><blockquote>
+  <p>独坐孤亭对月明，夜深人静听风声。<br />
+思绪万千难入眠，遥想往事心难平。<br />
+岁月匆匆如流水，人生如梦似浮萍。<br />
+愿得长风破浪去，直挂云帆渡沧海。</p>
+</blockquote>
+
+<p><img src="/assets/img/header_image_3.jpg" alt="" /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ping bny.otfo.cc
+
+</code></pre></div></div>
+
+<h2 id="完了">完了…</h2>
+</div>
+
+  <!-- 评论区 -->
+  <div class="post__comment">
     
-      <li data-url="/other/2024/11/11/readme.html">
+    <div class="post__comment--on">
          
 
-<a href="/other/2024/11/11/readme.html">
-  <div class="card">
-    <h1 class="card__title">框架功能</h1>
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    this.page.url = "https://bny.otfo.cc/2024/11/13/web-new-post.html";
+    this.page.identifier = "/2024/11/13/web-new-post";
+  };
+  (function () {
+    // DON'T EDIT BELOW THIS LINE
+    var d = document,
+      s = d.createElement("script");
+    s.src = "https://otfo.disqus.com/embed.js";
+    s.setAttribute("data-timestamp", +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript
+  >Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript"
+    >comments powered by Disqus.</a
+  ></noscript
+>
 
-      
-    <div class="card__excerpt"><blockquote>
-  <p>了解“框架”功能，有助于你更好地游戏…</p>
-</blockquote>
-</div>
-     
-    <div class="card__date">更新于：2024/11/11</div>
+    </div>
     
   </div>
-</a>
-
-      </li>
-    
-  </ul>
 </div>
 </main>
 

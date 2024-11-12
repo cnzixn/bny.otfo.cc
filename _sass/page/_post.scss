@@ -6,9 +6,16 @@
 }
 
 .article_title {
-  margin: 1.25rem 0 0.625rem;
-  line-height: 2.125rem;
-  font-size: 1.375rem;
+  margin: 1.5rem 0 1rem; /* 调整上下间距，使标题更有呼吸感 */
+  line-height: 2.5rem; /* 增加行高，使标题更具可读性 */
+  font-size: 2rem; /* 增大字体大小 */
+  font-weight: bold; /* 加粗字体 */
+  color: #333; /* 使用深色字体，增加对比度 */
+  text-transform: uppercase; /* 转换为大写，增加视觉冲击力 */
+  letter-spacing: 0.05em; /* 增加字母间距，避免字母过于拥挤 */
+  border-bottom: 3px solid #007BFF; /* 给标题添加一个底部蓝色边框，增加视觉吸引力 */
+  padding-bottom: 0.5rem; /* 给标题底部加点内边距，使边框不那么靠近文字 */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* 轻微的文字阴影增加立体感 */
 }
 
 .article__content {

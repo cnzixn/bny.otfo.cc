@@ -1,9 +1,9 @@
 # basic
 # ============================================================================
-url: "https://otfo.cc"
 # if your site is serving on https://xxx.github.io, set `baseurl: /`
 # if your site is serving on https://xxx.github.io/path, set `baseurl: /path`
-baseurl: /bny
+# url: "https://bny.otfo.cc"
+# baseurl: 
 
 # site title
 title: Bny
@@ -21,6 +21,7 @@ header_image_2: /assets/img/header_image_2.jpg
 header_image_3: /assets/img/header_image_3.jpg
 
 # permalink: /:year-:month-:day-:title/
+
 
 # default variables for post-type page
 defaults:

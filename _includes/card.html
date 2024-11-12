@@ -15,9 +15,9 @@
     {% endif %}
 
     {% if post.date %}
-      <div class="card__date">{{ post.date | date: "发布日期: %Y/%m/%d" }}</div>
+      <div class="card__date">{{ post.date | date: "更新于：%Y/%m/%d" }}</div>
     {% else %}
-      <div class="card__date">发布日期: 不详</div>
+      <div class="card__date">更新于：不详</div>
     {% endif %}
 
   </div>

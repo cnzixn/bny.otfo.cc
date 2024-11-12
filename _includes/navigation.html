@@ -4,15 +4,15 @@
     <!-- 自动生成分类列表 -->
     {% for category in site.categories %}
       <li class="navbar__item">
-        <a href="{{ '/category/' | append: category[0] | relative_url }}">
+        <a href="{{ '/cg/' | append: category[0] | relative_url }}">
           {{ category[0] | capitalize }}
         </a>
       </li>
     {% endfor %}
  
-    <li class="navbar__item"><a href="{{ '/posts.html' | relative_url }}">Posts</a></li>
+    <li class="navbar__item"><a href="{{ '/cg/post' | relative_url }}">Post</a></li>
  
-    <li class="navbar__item"><a href="{{ '/files.html' | relative_url }}">Files</a></li>
+    <!-- <li class="navbar__item"><a href="{{ '/cg/file.html' | relative_url }}">Files</a></li> -->
 
     <!-- <li class="navbar__item"><a href="https://www.123684.com/s/IC8lVv-UnDAv">Files</a></li> -->
 

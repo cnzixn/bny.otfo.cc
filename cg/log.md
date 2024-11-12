@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Tutorials
-category: tutorials
-permalink: /category/tutorials/
+title: 日志
+category: log
+permalink: /cg/log/
 ---
-
 
 <div class="posts">
   <ul>

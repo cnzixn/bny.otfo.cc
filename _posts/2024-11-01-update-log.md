@@ -2,7 +2,7 @@
 layout: post
 title: "更新日志 2024-11-01"
 date: 2024-11-11
-categories: logs
+categories: log
 comment: false
 ---
 

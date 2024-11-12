@@ -12,15 +12,24 @@ layout: page
   {% endif %}
 
   <!-- 页面日期 -->
+  <script src="{{ '/assets/js/copy_short_link.js' | relative_url }}"></script>
   {% if page.date %}
-    <div class="card__date">{{ page.date | date: "发布日期: %Y/%m/%d" }}</div>
+    <div class="card__date">
+      {{ page.date | date: "更新于：%Y/%m/%d" }}
+    </div>
   {% else %}
-    <div class="card__date">发布日期: 不详</div>
+    <div class="card__date">更新于：不详</div>
   {% endif %}
+  
+  <!-- 分享按钮 -->
+  <div class="card__date">
+      短链接：<input type="text" id="shortLink" value="{{ page.short_url }}" readonly style="opacity: 1; position: relative;">
+      <button class="share-button" onclick="copyShortLink()">复制</button>
+  </div>
 
   <!-- 页面内容 -->
   <div class="article__content">
-    {{ content | markdownify }}  <!-- 增加 markdown 转换，防止格式问题 -->
+    {{ content | markdownify }}
   </div>
 
   <!-- 评论区 -->
@@ -34,6 +43,5 @@ layout: page
       <div class="post__comment--off">评论功能暂时关闭。</div>
     {% endif %}
   </div>
-
 
 </div>

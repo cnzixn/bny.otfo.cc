@@ -1,7 +1,3 @@
----
-permalink: /404.html
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,9 +6,43 @@ permalink: /404.html
 
   <title>Page not found</title>
 
-  {% include head.html %}
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-  <link rel="stylesheet" href="{{ 'assets/css/404.css' | relative_url }}" media="all">
+
+<title>Bny</title>
+
+<!-- favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico" />
+<link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico" />
+
+<!-- font -->
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i" rel="stylesheet">
+
+<!-- RSS -->
+<link rel="alternate" type="application/rss+xml" title="Bny" href="/feed.xml" />
+
+<!-- 在 `<head>` 部分引入 Swiper 的 CSS -->
+<!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+<link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+
+
+
+<script>
+  // 强制网页显示为手机版
+  if (window.innerWidth >= 768) {
+    var viewportMeta = document.querySelector('meta[name="viewport"]');
+    if (viewportMeta) {
+      viewportMeta.parentNode.removeChild(viewportMeta);
+    }
+    var newViewport = document.createElement('meta');
+    newViewport.name = "viewport";
+    newViewport.content = "width=375, initial-scale=1";  // 模拟 iPhone 手机的宽度
+    document.getElementsByTagName('head')[0].appendChild(newViewport);
+  }
+</script>
+
+  <link rel="stylesheet" href="/assets/css/404.css" media="all">
 
 </head>
 <body>
@@ -33,10 +63,27 @@ permalink: /404.html
 
     <section class="description">
       <p>本网站仅支持“手机”访问！</p>
-      <p> :) 页面不存在，回到 <a href="{{ '/' | relative_url }}">首页</a> 试试?</p>
+      <p> :) 页面不存在，回到 <a href="/">首页</a> 试试?</p>
     </section>
 
-    {% include footer.html %}
+    <footer class="footer clear-header--left">
+  <div class="footer__note">©️ 2024 <a href="/" target="_blank">Bny</a></div>
+  <div class="footer__note">Douyin 
+    <a href="https://v.douyin.com/iAPfUo3x/" target="_blank">@otfo.cc</a>, Join 
+    <a href="https://jq.qq.com/?k=5WukPKv" target="_blank">QQ Group</a>.
+  </div>
+  <div class="footer__note">
+    Built with <a href="https://github.com/kkninjae/book" target="_blank">Book</a>, a 
+    <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> theme. 
+    <a href="/feed.xml" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+        <path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/>
+      </svg>
+    </a>
+  </div>
+</footer>
+
+
 
   </main>
 

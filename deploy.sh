@@ -15,10 +15,13 @@ git checkout gh-pages
 git rm -rf .
 
 # 将 _site 文件夹内容复制到 gh-pages 分支根目录
+git checkout main -- CNAME
+git checkout main -- .gitignore
 git checkout main -- _site
 git checkout main -- search.json
-cp -r ./_site/s .
-mv _site bny
+mv -r ./_site/bny .
+mv -r ./_site/* ./buy
+mv -r ./bny/s .
 mv ./bny/index.html .
 mv ./bny/404.html .
 

@@ -3,10 +3,10 @@
   <channel>
     <title>Bny</title>
     <description></description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Nov 2024 19:44:51 +0800</pubDate>
-    <lastBuildDate>Tue, 12 Nov 2024 19:44:51 +0800</lastBuildDate>
+    <link>https://bny.otfo.cc/</link>
+    <atom:link href="https://bny.otfo.cc/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 12 Nov 2024 20:00:55 +0800</pubDate>
+    <lastBuildDate>Tue, 12 Nov 2024 20:00:55 +0800</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
       <item>
@@ -58,8 +58,8 @@
 &lt;hr /&gt;
 </description>
         <pubDate>Mon, 11 Nov 2024 00:00:00 +0800</pubDate>
-        <link>/file/2024/11/11/all-file.html</link>
-        <guid isPermaLink="true">/file/2024/11/11/all-file.html</guid>
+        <link>https://bny.otfo.cc/file/2024/11/11/all-file.html</link>
+        <guid isPermaLink="true">https://bny.otfo.cc/file/2024/11/11/all-file.html</guid>
         
         
         <category>file</category>
@@ -208,8 +208,8 @@
 
 </description>
         <pubDate>Mon, 11 Nov 2024 00:00:00 +0800</pubDate>
-        <link>/other/2024/11/11/readme.html</link>
-        <guid isPermaLink="true">/other/2024/11/11/readme.html</guid>
+        <link>https://bny.otfo.cc/other/2024/11/11/readme.html</link>
+        <guid isPermaLink="true">https://bny.otfo.cc/other/2024/11/11/readme.html</guid>
         
         
         <category>other</category>
@@ -249,8 +249,8 @@
 &lt;hr /&gt;
 </description>
         <pubDate>Mon, 11 Nov 2024 00:00:00 +0800</pubDate>
-        <link>/log/2024/11/11/update-log.html</link>
-        <guid isPermaLink="true">/log/2024/11/11/update-log.html</guid>
+        <link>https://bny.otfo.cc/log/2024/11/11/update-log.html</link>
+        <guid isPermaLink="true">https://bny.otfo.cc/log/2024/11/11/update-log.html</guid>
         
         
         <category>log</category>
@@ -276,8 +276,8 @@
 &lt;hr /&gt;
 </description>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0800</pubDate>
-        <link>/log/2024/10/02/update-log.html</link>
-        <guid isPermaLink="true">/log/2024/10/02/update-log.html</guid>
+        <link>https://bny.otfo.cc/log/2024/10/02/update-log.html</link>
+        <guid isPermaLink="true">https://bny.otfo.cc/log/2024/10/02/update-log.html</guid>
         
         
         <category>log</category>

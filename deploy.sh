@@ -31,10 +31,16 @@ git reset deploy.sh
 git commit -m "Deploy"
 git push origin gh-pages --force
 
+# 清空分支
+git rm -rf .
+git add .
+git commit -m "Update"
+
 # 返回到主分支
 git checkout main
 rm -rf ./bny
-
+git add .
+git commit -m "Update"
 
 
 # jekyll build

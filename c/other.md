@@ -1,8 +1,7 @@
 ---
 layout: page
-title: 教程
-category: tutorial
-permalink: /cg/tutorial/
+title: 其他
+category: other
 ---
 
 <div class="posts">
@@ -11,7 +10,7 @@ permalink: /cg/tutorial/
       <input type="text" id="search-bar" placeholder="搜索文章..." />
   </div>
   <!-- 文章列表 -->
-  <ul>
+  <ul id="post-list">
     {% for post in site.categories[page.category] %}
       <li data-url="{{ post.url | prepend: site.baseurl }}">
         {% include card.html post=post %}

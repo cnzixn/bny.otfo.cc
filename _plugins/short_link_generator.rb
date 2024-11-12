@@ -4,6 +4,8 @@ module Jekyll
     priority :low
 
     def generate(site)
+      site_url = site.config['url']
+      basedir = site.config['baseurl']
       site.posts.docs.each do |post|
 
         # 如果文章已设置 scode，使用它
@@ -21,8 +23,8 @@ module Jekyll
 
         # 中转页面：为每个短链接路径生成一个 HTML 文件
         page = Jekyll::Page.new(site, site.source, "", "s/#{short_code}/index.html")
-        page.data["layout"] = "redirect"  # 确保使用重定向布局
-        page.data["post_url"] = post.url  # 设置原文章的 URL
+        page.data["layout"] = "short"  # 确保使用重定向布局
+        page.data["post_url"] = File.join(site_url, post.url)  # 设置原文章的 URL
         site.pages << page  # 将生成的页面添加到 site.pages 中
       end
     end

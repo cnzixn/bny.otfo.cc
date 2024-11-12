@@ -1,4 +1,4 @@
-# _plugins/generate_search_json.rb
+# _plugins/search_json_generator.rb
 
 require 'json'
 

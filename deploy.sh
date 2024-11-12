@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# 网站名字 xxx.com/bny
+web_name="bny"
+
 # cd /sdcard/acode/bny.otfo.cc/
 # bash deploy.sh
 
@@ -18,7 +21,8 @@ git rm -rf .
 git checkout main -- _site
 git checkout main -- .gitignore
 git checkout main -- search.json
-cp -r ./_site/* .
+cp -r ./_site/s .
+mv _site "$web_name"
 
 # 提交并推送到 gh-pages 分支
 git add .

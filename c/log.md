@@ -1,8 +1,7 @@
 ---
 layout: page
-title: 文件
-category: file
-permalink: /cg/file/
+title: 日志
+category: log
 ---
 
 <div class="posts">
@@ -11,7 +10,7 @@ permalink: /cg/file/
       <input type="text" id="search-bar" placeholder="搜索文章..." />
   </div>
   <!-- 文章列表 -->
-  <ul id="post-list">
+  <ul>
     {% for post in site.categories[page.category] %}
       <li data-url="{{ post.url | prepend: site.baseurl }}">
         {% include card.html post=post %}

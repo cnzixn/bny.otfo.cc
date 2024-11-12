@@ -1,7 +1,6 @@
 ---
 layout: page
 title: 全部
-permalink: /cg/post/
 ---
 
 <div class="posts">

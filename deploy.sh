@@ -33,9 +33,7 @@ git push origin gh-pages --force
 
 # 返回到主分支
 git checkout main
-git rm -rf ./bny
-git add .
-git commit -m "Update"
+rm -rf ./bny
 
 
 

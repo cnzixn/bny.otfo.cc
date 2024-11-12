@@ -3,7 +3,7 @@
 .navbar {
   @include mobile-only {
     position: absolute;
-    left: $header-avatar-height / 2 + 1rem;
+    left: $header-avatar-height * 0.5 + 1rem;
     top: $navigation-item-desktop-top + 1rem;
     z-index: $zindex-medium;
   }
@@ -35,7 +35,7 @@
 .navbar__item {
   display: inline-block;
   position: relative;
-  margin-right: $navigation-item-tail-width * (1 + 1/4);
+  margin-right: $navigation-item-tail-width * 1.25;
 
   a {
     display: block;

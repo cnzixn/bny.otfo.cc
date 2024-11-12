@@ -1,14 +1,13 @@
 ---
+title: 更新日志
 layout: post
-title: "更新日志 2024-10-01"
-date: 2024-10-02
+date: '2024-10-02'
 categories: log
 comment: false
 ---
 
-...
+> 241001 框架更新日志...
 
------
 
 1、物品栏：修复 -> 无法使用“动作弹窗”。
 

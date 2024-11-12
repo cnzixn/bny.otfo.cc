@@ -3,13 +3,13 @@
 # if your site is serving on https://xxx.github.io, set `baseurl: /`
 # if your site is serving on https://xxx.github.io/path, set `baseurl: /path`
 url: "https://bny.otfo.cc"
-baseurl: 
+baseurl: ""
 
 # site title
 title: Bny
 
 # site favicon, absolute path required
-favicon: /assets/img/favicon.ico
+favicon: /assets/img/favicon.jpg
 
 # home button image, absolute path requried
 avatar: /assets/img/avatar.jpg
@@ -38,6 +38,12 @@ defaults:
 sass:
   sass_dir: _sass
   style: compressed
+
+
+plugins:
+  - jekyll-admin
+  - jekyll-assets
+
 
 
 # exclude none site related files

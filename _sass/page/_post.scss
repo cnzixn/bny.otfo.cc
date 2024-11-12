@@ -13,7 +13,7 @@
   color: #333; /* 使用深色字体，增加对比度 */
   text-transform: uppercase; /* 转换为大写，增加视觉冲击力 */
   letter-spacing: 0.05em; /* 增加字母间距，避免字母过于拥挤 */
-  border-bottom: 3px solid #007BFF; /* 给标题添加一个底部蓝色边框，增加视觉吸引力 */
+  border-bottom: 3px solid #888888; /* 给标题添加一个底部下划线，增加视觉吸引力 */
   padding-bottom: 0.5rem; /* 给标题底部加点内边距，使边框不那么靠近文字 */
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* 轻微的文字阴影增加立体感 */
 }
@@ -97,7 +97,7 @@
   blockquote {
     position: relative;
     margin: 1.875rem -10px;
-    padding: 0 20px;
+    padding: 0.5rem 20px;
     font-style: italic;
 
     @include breakpoint(medium) {

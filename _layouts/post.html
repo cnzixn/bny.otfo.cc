@@ -3,45 +3,47 @@ layout: page
 ---
 
 <div class="post">
-
   <!-- 页面标题 -->
   {% if page.title %}
-    <h1 class="card__title article_title">{{ page.title | escape | capitalize }}</h1>
+  <h1 class="card__title article_title">
+    {{ page.title | escape | capitalize }}
+  </h1>
   {% else %}
-    <h1 class="card__title article_title">未定义标题</h1>
+  <h1 class="card__title article_title">未定义标题</h1>
   {% endif %}
 
   <!-- 页面日期 -->
   <script src="{{ '/assets/js/copy_short_link.js' | relative_url }}"></script>
   {% if page.date %}
-    <div class="card__date">
-      {{ page.date | date: "更新于：%Y/%m/%d" }}
-    </div>
+  <div class="card__date">{{ page.date | date: "更新于：%Y/%m/%d" }}</div>
   {% else %}
-    <div class="card__date">更新于：不详</div>
+  <div class="card__date">更新于：不详</div>
   {% endif %}
-  
+
   <!-- 分享按钮 -->
   <div class="card__date">
-      短链接：<input type="text" id="shortLink" value="{{ page.short_url }}" readonly style="opacity: 1; position: relative;">
-      <button class="share-button" onclick="copyShortLink()">复制</button>
+    短链接：<input
+      type="text"
+      id="shortLink"
+      value="{{ page.short_url }}"
+      readonly
+      style="opacity: 1; position: relative"
+    />
+    <button class="share-button" onclick="copyShortLink()">复制</button>
   </div>
 
   <!-- 页面内容 -->
-  <div class="article__content">
-    {{ content | markdownify }}
-  </div>
+  <div class="article__content">{{ content | markdownify }}</div>
 
   <!-- 评论区 -->
   <div class="post__comment">
     {% if site.disqus and page.comment %}
-      <div class="post__comment--on">
-        {% assign url = page.url | absolute_url %}
-        {% include disqus.html username = site.disqus url = url id = page.id %}
-      </div>
+    <div class="post__comment--on">
+      {% assign url = page.url | absolute_url %} {% include disqus.html username
+      = site.disqus url = url id = page.id %}
+    </div>
     {% else %}
-      <div class="post__comment--off">评论功能暂时关闭。</div>
+    <div class="post__comment--off">评论功能暂时关闭。</div>
     {% endif %}
   </div>
-
 </div>

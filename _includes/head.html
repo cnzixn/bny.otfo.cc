@@ -1,41 +1,44 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+/>
 
-{% if page.title %}
-  {% assign title = page.title %}
-{% else %}
-  {% assign title = site.title %}
-{% endif %}
+{% if page.title %} {% assign title = page.title %} {% else %} {% assign title =
+site.title %} {% endif %}
 <title>{{ title }}</title>
 
 <!-- favicon -->
-<link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | relative_url }}" />
+<link
+  rel="shortcut icon"
+  type="image/x-icon"
+  href="{{ site.favicon | relative_url }}"
+/>
 <link rel="icon" type="image/x-icon" href="{{ site.favicon | relative_url }}" />
 
 <!-- font -->
-<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i" rel="stylesheet">
+<link
+  href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i"
+  rel="stylesheet"
+/>
 
 <!-- RSS -->
-<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}" />
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  title="{{ site.title }}"
+  href="{{ '/feed.xml' | relative_url }}"
+/>
 
-<!-- 在 `<head>` 部分引入 Swiper 的 CSS -->
+<!-- Swiper 的 CSS -->
 <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
-<link rel="stylesheet" href="{{ '/assets/css/swiper-bundle.min.css' | relative_url }}">
+<link
+  rel="stylesheet"
+  href="{{ '/assets/css/swiper-bundle.min.css' | relative_url }}"
+/>
 
-{% if site.ga %}
-{% include ga.html ga = site.ga %}
-{% endif %}
+{% if site.ga %} {% include ga.html ga = site.ga %} {% endif %}
 
-<script>
-  // 强制网页显示为手机版
-  if (window.innerWidth >= 768) {
-    var viewportMeta = document.querySelector('meta[name="viewport"]');
-    if (viewportMeta) {
-      viewportMeta.parentNode.removeChild(viewportMeta);
-    }
-    var newViewport = document.createElement('meta');
-    newViewport.name = "viewport";
-    newViewport.content = "width=375, initial-scale=1";  // 模拟 iPhone 手机的宽度
-    document.getElementsByTagName('head')[0].appendChild(newViewport);
-  }
-</script>
+<!-- 搜索功能 -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.7.1/dest/jekyll-search.min.js"></script> -->
+<script src="{{ '/assets/js/jekyll-search.min.js' | relative_url }}"></script>

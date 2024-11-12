@@ -11,7 +11,7 @@
   text-align: center;
 
   &__note {
-    line-height: $footer-height / 2 - 0.625;
+    line-height: $footer-height * 0.5 - 0.625;
   }
 
   svg {

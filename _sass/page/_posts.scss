@@ -9,7 +9,7 @@
   }
 
   li {
-    margin-bottom: 3.75rem;
+    margin-bottom: 1rem;
 
     &:last-child {
       margin-bottom: 0;
@@ -23,8 +23,27 @@
   .card {
     min-height: 5.75rem;
   }
+  
+  .card__excerpt blockquote {
+    margin: 10px !important;
+    padding: 0;
+  }
 
   a:hover .card {
     box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
+  
+  .search-container {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;  /* 水平居中 */
+    /* align-items: center;       垂直居中 */
+    /* height: 100vh;            可选：让容器填满整个视口高度 */
+  }
+  
+  .search-container input {
+    padding: 10px;
+    width: 80%;  /* 可根据需要调整宽度 */
+  }
 }
+

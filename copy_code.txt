@@ -7,6 +7,7 @@ cd /sdcard/acode/bny.otfo.cc/
 
 git remote add origin https://github.com/cnzixn/bny.otfo.cc.git
 
+提交到git
 
   git checkout main
   jekyll build
@@ -27,3 +28,19 @@ git remote add origin https://github.com/cnzixn/bny.otfo.cc.git
   
   git checkout main
   
+
+
+
+
+代码美化
+  cd /sdcard/acode/bny.otfo.cc/_site
+  npx prettier --write "**/*.html"
+  
+  
+  
+
+
+
+
+
+

@@ -1,4 +1,3 @@
-
 # _plugins/short_link_generator.rb
 module Jekyll
   class ShortLinkGenerator < Generator

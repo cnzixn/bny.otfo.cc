@@ -44,8 +44,6 @@ plugins:
   - jekyll-admin
   - jekyll-assets
 
-
-
 # exclude none site related files
 # ============================================================================
 exclude:

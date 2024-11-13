@@ -25,14 +25,14 @@ git checkout main -- .gitignore
 git checkout main -- _site
 git checkout main -- search.json
 cp -r ./_site ./bny
-cp -r ./bny/bny/s .
+cp -r ./bny/s .
 # cp ./bny/index.html .
 cp ./bny/404.html .
-rm -rf ./bny/bny
 
 # 提交并推送到 gh-pages 分支
 git add .
 git reset deploy.sh
+git reset start.sh
 git commit -m "Deploy gh-pages"
 git push origin gh-pages --force
 

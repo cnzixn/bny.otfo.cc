@@ -3,6 +3,6 @@
 # cd /sdcard/acode/otfo.cc/
 # bash do.sh
 
-jekyll build
+# jekyll build
 
 jekyll serve

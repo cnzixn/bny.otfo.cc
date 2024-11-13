@@ -3,9 +3,14 @@
   const searchBar = document.getElementById('search-bar');
   const postList = document.querySelector('.posts > ul');
   const postItems = postList.querySelectorAll('li');  // 获取所有 <li> 元素
+  // const baseUrl = new URL(window.location.href).origin; // 获取当前页面的基础URL
+  // const url = new URL('/assets/search.json', baseUrl); // 构建完整的URL
+  
 
   // 加载 search.json 数据
-  fetch('/search.json')
+  const baseurl = window.baseurl || '';
+  // alert(`${baseurl}/assets/search.json`);
+  fetch(`${baseurl}/assets/search.json`)
     .then(response => response.json())
     .then(data => {
       // 监听搜索框输入
